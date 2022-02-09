@@ -1,0 +1,120 @@
+/*Estilos Generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.contenedor{
+  
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.navegacion{
+  
+  display: flex;
+}
+
+.lista{
+  font-size: 1.5rem;
+  
+}
+
+.lista a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.hero__section{
+  display: flex;
+  width: 80%;
+  height: 60vh;
+  font-size: 4rem;
+  background-image: url(../img/platica.jpg) ;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.hero__section button{
+  width: 200px;
+  height: 45px;
+}
+.funcion__terapia h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  margin: 10px auto;
+}
+.funcion__descrip{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.disposicion__descrip{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.servicios__descrip{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.beneficios__descrip{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.testigo{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.blog{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.blog figure{
+  width: 25%;
+}
+
+footer small{
+  font-size: 1rem;
+}
+
+.redes img{
+  width: 20px;
+}
