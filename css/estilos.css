@@ -6,12 +6,16 @@
   list-style-type: none;
 }
 
+header h1{
+  color: white;
+}
 html {
   font-size: 62.5%;
 }
 
 .contenedor{
   padding: 1rem 0.5rem;
+  background-color: #001220;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -35,6 +39,7 @@ html {
 .lista a {
   text-decoration: none;
   margin: 0 0.5rem;
+  color: white;
 }
 
 .hero__section{
@@ -42,6 +47,9 @@ html {
   height: 40vh;
   font-size: 4rem;
   background-image: url(../img/platica.jpg) ;
+  background-size:cover;
+  background-position-x:center ;
+  background-position-y:center ;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -58,6 +66,15 @@ html {
   align-items: center;
   justify-content: space-evenly;
   font-size: 5rem;
+  margin: 100px auto;
+}
+
+.blog__terapia{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 5rem;
+  flex-wrap: wrap;
   margin: 100px auto;
 }
 .funcion__descrip{
@@ -90,6 +107,16 @@ html {
   margin: 100px auto;
 }
 
+.funcion__col{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.funcion__col,h3,p{
+  font-size: 3rem;
+}
 .beneficios__descrip{
   padding: 2rem;
   display: flex;
@@ -122,8 +149,23 @@ html {
   width: 25%;
 }
 
-footer small{
+.formulario{
+  display: inline-flexbox;
+  margin: 15px 20px;
   font-size: 2rem;
+   
+  
+}
+
+.leyenda{
+  font-size: 1.4rem;
+}
+.leyenda p {
+  font-size: 1.4rem;
+}
+
+footer small{
+  font-size: 1.5rem;
 }
 
 .redes img{
