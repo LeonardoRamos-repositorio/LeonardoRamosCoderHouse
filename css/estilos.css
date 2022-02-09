@@ -11,12 +11,11 @@ html {
 }
 
 .contenedor{
-  
   padding: 1rem 0.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
+  justify-content: space-evenly;
+  margin: 10 auto;
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
@@ -40,14 +39,14 @@ html {
 
 .hero__section{
   display: flex;
-  width: 80%;
-  height: 60vh;
+  height: 40vh;
   font-size: 4rem;
   background-image: url(../img/platica.jpg) ;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 2rem;
+  margin: 50px auto;
 }
 
 .hero__section button{
@@ -57,64 +56,77 @@ html {
 .funcion__terapia h2{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 5rem;
-  margin: 10px auto;
+  margin: 100px auto;
 }
 .funcion__descrip{
   padding: 2rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 1rem;
+  margin: 100px auto;
 }
 
 .disposicion__descrip{
   padding: 2rem;
   display: flex;
+  font-size: 2rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 50px auto;
   gap: 1rem;
 }
 
 .servicios__descrip{
   padding: 2rem;
   display: flex;
+  font-size: 2rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 1rem;
+  margin: 100px auto;
 }
 
 .beneficios__descrip{
   padding: 2rem;
   display: flex;
+  font-size: 2rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 1rem;
+  margin: 100px auto;
 }
 .testigo{
   padding: 2rem;
   display: flex;
+  font-size: 2rem;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin: 100px auto;
 }
 
 .blog{
   padding: 2rem;
   display: flex;
+  font-size: 2rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 1rem;
+  margin: 100px auto;
 }
 .blog figure{
   width: 25%;
 }
 
 footer small{
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .redes img{
-  width: 20px;
+  margin: 15px auto;
+  width: 25px;
 }
