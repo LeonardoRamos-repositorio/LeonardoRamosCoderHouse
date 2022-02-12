@@ -117,6 +117,12 @@ html {
 .funcion__col,h3,p{
   font-size: 3rem;
 }
+
+.funcion__col img{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
 .beneficios__descrip{
   padding: 2rem;
   display: flex;
