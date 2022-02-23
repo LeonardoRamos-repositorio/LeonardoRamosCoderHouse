@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <title>Blog - AMATE+</title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="contenedor">
-        <h1>AMATE+</h1>
-            <nav >
-                <ul class="navegacion">
-                    <li class="lista"><a href="/index.html">Inicio</a></li>
-                    <li class="lista"><a href="/vistas/actividades.html">Actividades</a></li>
-                    <li class="lista"><a href="/vistas/servicios.html">Servicios</a></li>
-                    <li class="lista"><a href="/vistas/colaboradores.html">Colaboradores</a></li>
-                    <li class="lista"><a href="#">Blog</a></li>
-                    <li class="lista"><a href="/vistas/contacto.html">Contacto</a></li>
+    <header class="container-fluid">
+        <a class="nav-link" href="#"><h1 class="nav-link">AMA Te+</h1></a>
+            <nav>
+                <ul class="nav ">
+                    <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/vistas/actividades.html">Actividades</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/vistas/servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/vistas/colaboradores.html">Colaboradores</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/vistas/contacto.html">Contacto</a></li>
                 </ul>
             </nav>    
     </header>            
         <main>
-            <section class="hero__section">
-                <!-- <img src="/img/platica.jpg" alt="hero"> -->
+            <section class="card text-center">
                 <h2>Transforma tu vida con salud mental y emocinal</h2>
                 <h3>Lorem ipsum dolo</h3>
                 <p>Contamos con geniales Trabajadores de la salud mental</p>
-                <button>localicemos al terapeuta</button>
+                <button class="btn btn-primary ">localicemos al terapeuta</button>
                
             </section>
 
@@ -37,75 +37,46 @@
             </div>
             <section class="blog">
                 
-                </div>
-                <article>
-                    <header>
-                        <hgroup>
-                            <h2>Título de la noticia 1</h2>
-                            <h3>Subtítulo de la noticia 1</h3>
-                        </hgroup>
-                    </header>
-                    <figure>
-                        <img src="../img/oxido.jpg" alt="deterioro" width="75%"/>
-                        <figcaption>
-                        pieza con deterioro
-                        </figcaption>
-                    </figure>
-                    <p> Noticia 1</p>
-                    <p>Seguimos hablando de <em>noticia 1</em></p>
-                    <p>Terminamos de hablar de <strong>noticia 1</strong></p>
-                </article>
-                <article>
-                    <header>
-                        <hgroup>
-                            <h2>Título de la noticia 1</h2>
-                            <h3>Subtítulo de la noticia 1</h3>
-                        </hgroup>
-                    </header>
-                    <figure>
-                        <img src="../img/oxido.jpg" alt="deterioro" width="75%"/>
-                        <figcaption>
-                        pieza con deterioro
-                        </figcaption>
-                    </figure>
-                    <p> Noticia 2</p>
-                    <p>Seguimos hablando de <em>noticia 2</em></p>
-                    <p>Terminamos de hablar de <strong>noticia 2</strong></p>
-                </article>
-                <article>
-                    <header>
-                        <hgroup>
-                            <h2>Título de la noticia 3</h2>
-                            <h3>Subtítulo de la noticia 3</h3>
-                        </hgroup>
-                    </header>
-                    <figure>
-                        <img src="../img/oxido.jpg" alt="deterioro" width="75%"/>
-                        <figcaption>
-                        pieza con deterioro
-                        </figcaption>
-                    </figure>
-                    <p> Noticia 3</p>
-                    <p>Seguimos hablando de <em>noticia 3</em></p>
-                    <p>Terminamos de hablar de <strong>noticia 3</strong></p>
-                </article>
-                <article>
-                <header>
-                    <hgroup>
-                        <h2>Título de la noticia 4</h2>
-                        <h3>Subtítulo de la noticia 4</h3>
-                    </hgroup>
-                </header>
-                <figure>
-                    <img src="../img/oxido.jpg" alt="deterioro" width="75%"/>
-                    <figcaption>
-                    pieza con deterioro
-                    </figcaption>
-                </figure>
-                <p> Noticia 4</p>
-                <p>Seguimos hablando de <em>noticia 4</em></p>
-                <p>Terminamos de hablar de <strong>noticia 4</strong></p>
-            </article>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Noticia #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Título de la noticia 1</strong> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quo, tenetur similique iste blanditiis ipsum beatae necessitatibus officia aliquid neque mollitia maiores iure! Dolorem esse quo, autem voluptate placeat amet.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Noticia #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Título de la noticia 2</strong> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur alias iste aperiam, a assumenda doloribus laboriosam accusantium minima nam placeat quaerat? Inventore numquam quasi natus sapiente! Numquam, obcaecati ea!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Noticia #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Título de la noticia 3</strong> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente beatae ratione numquam exercitationem! Dolorem maiores blanditiis placeat, temporibus ex molestias sit distinctio corporis voluptatum dolores. Placeat officiis temporibus soluta voluptatibus!</p>
+                        
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </section>
         </main>
     <footer>
@@ -120,6 +91,7 @@
             <img src="../img/facebook.png" alt="Facebook" >
                                                 
         </div> 
-    </footer>     
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>               
 </body>
 </html>

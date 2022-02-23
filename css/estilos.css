@@ -8,103 +8,159 @@
 
 header h1{
   color: white;
-}
-html {
-  font-size: 62.5%;
+  font-size: 1.5em;
 }
 
-.contenedor{
-  padding: 1rem 0.5rem;
+header{
+  display: flex;
+}
+.container-fluid{
+  padding: 0.5rem 0.5rem;
   background-color: #001220;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 10 auto;
+}
+header.container-fluid{
   align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-
+  justify-content: space-between;
+  font-size: 1em;
 }
 
-.navegacion{
-  
-  display: flex;
+body{
+  color: black;
+  margin: 0px;
 }
 
-.lista{
-  font-size: 1.5rem;
-  
+:root{
+  --bs-body-font-size: 0.9em;
 }
 
-.lista a {
-  text-decoration: none;
-  margin: 0 0.5rem;
+.nav-link{
   color: white;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:focus, .nav-link:hover{
+  color: aqua;
 }
 
-.hero__section{
-  display: flex;
+.card{
+  margin-top: 40px;
   height: 40vh;
-  font-size: 4rem;
   background-image: url(../img/platica.jpg) ;
   background-size:cover;
   background-position-x:center ;
   background-position-y:center ;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 2rem;
-  margin: 50px auto;
 }
-
-.hero__section button{
+.btn{
+  
   width: 200px;
-  height: 45px;
+  height: 60px;
 }
 .funcion__terapia h2{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  font-size: 5rem;
-  margin: 100px auto;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.blog__terapia{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: 5rem;
-  flex-wrap: wrap;
-  margin: 100px auto;
+.servicios__negocio__izq{
+  display: grid;
+  
+  justify-content: center;
+  
 }
-.funcion__descrip{
-  padding: 2rem;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 1rem;
-  margin: 100px auto;
+  
+.servicios__negocio__izq img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
 }
 
-.disposicion__descrip{
-  padding: 2rem;
-  display: flex;
-  font-size: 2rem;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 50px auto;
-  gap: 1rem;
+.row>*{
+  padding-right: 0;
 }
 
-.servicios__descrip{
-  padding: 2rem;
-  display: flex;
-  font-size: 2rem;
+.row{
+  --bs-gutter-y:20px
+  --bs-gutter-x: 0.5rem;
+  
+}
+
+.servicios__negocio{
+  display: grid;
+  padding-left: 15px;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 1rem;
-  margin: 100px auto;
+  justify-content: center;
+}
+.servicios__negocio img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size:cover;
+  background-position-x:center ;
+  background-position-y:center ;
+  align-items: center;
+}
+
+
+.funcion__izq{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.funcion__cto{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.funcion__dcha{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.beneficios__negocio__izq1{
+  padding-left: 15px;
+}
+.beneficios__negocio__izq2{
+  padding-left: 15px;
+}
+.disposicion__izquierda{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.disposicion__centro{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.disposicion__derecho{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.servicios{
+ 
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.testimonios__izq{
+  padding-left: 15px;
 }
 
 .funcion__col{
@@ -114,34 +170,13 @@ html {
   font-size: 2rem;
 }
 
-.funcion__col,h3,p{
-  font-size: 3rem;
-}
 
 .funcion__col img{
   width: 150px;
   height: 150px;
   border-radius: 75px;
-  border: 4px solid #001220;
 }
-.beneficios__descrip{
-  padding: 2rem;
-  display: flex;
-  font-size: 2rem;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 1rem;
-  margin: 100px auto;
-}
-.testigo{
-  padding: 2rem;
-  display: flex;
-  font-size: 2rem;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 2rem;
-  margin: 100px auto;
-}
+
 
 .blog{
   padding: 2rem;
@@ -179,3 +214,43 @@ footer small{
   margin: 15px auto;
   width: 25px;
 }
+
+@media screen and (max-width:425px) {
+  .blog__terapia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 5rem;
+    flex-wrap: wrap;
+    margin: 100px auto;
+  }
+  .funcion__descrip{
+    padding: 2rem;
+   
+  }
+  .servicios__descrip{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testigo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .beneficios__descrip{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  
+  }
+}
+
+@media screen and (max-width:768px){
+  
+    
+  }
+
