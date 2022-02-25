@@ -1,49 +1,32 @@
-/*Estilos Generales*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-}
-
-body{
-  color: black;
-  margin: 0px;
-}
-
-:root{
-  --bs-body-font-size: 0.9em;
-}
-
 header{
   display: flex;
+  & h1{
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  &.container-fluid{
+    padding: 0.5rem 0.5rem;
+    background-color: #001220;
+  }
+  
+  &.container-fluid{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em;
+  }
+  & .nav-link{
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  }
+  &.nav-link:focus, .nav-link:hover{
+    color: aqua;
 }
 
-headerh1{
-  color: white;
-  font-size: 1.5em;
 }
 
-header.container-fluid{
-  padding: 0.5rem 0.5rem;
-  background-color: #001220;
-}
-
-header.container-fluid{
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1em;
-}
-header .nav-link{
-  color: white;
-  text-decoration: none;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-header.nav-link:focus, .nav-link:hover{
-  color: aqua;
-}
-
-.card{
+main.card{
   margin-top: 40px;
   height: 40vh;
   background-image: url(../img/platica.jpg) ;
@@ -51,22 +34,35 @@ header.nav-link:focus, .nav-link:hover{
   background-position-x:center ;
   background-position-y:center ;
   align-items: center;
-}
-.btn{
   
-  width: 200px;
-  height: 60px;
-}
-.funcion__terapia h2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
+  &.btn{
+    
+    width: 200px;
+    height: 60px;
+  }
+  & .funcion__terapia h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .servicios__negocio__izq{
+    display: grid;
+    
+    justify-content: center;
+    
+  }
+    
+  & .servicios__negocio__izq img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
 }
 
 .servicios__negocio__izq{
   display: grid;
-  
   justify-content: center;
   
 }
@@ -77,15 +73,6 @@ header.nav-link:focus, .nav-link:hover{
   border-radius: 100%;
 }
 
-.row>*{
-  padding-right: 0;
-}
-
-.row{
-  --bs-gutter-y:20px
-  --bs-gutter-x: 0.5rem;
-  
-}
 
 .servicios__negocio{
   display: grid;
@@ -102,8 +89,6 @@ header.nav-link:focus, .nav-link:hover{
   background-position-y:center ;
   align-items: center;
 }
-
-
 .funcion__izq{
   display: grid;
   align-items: center;
@@ -145,7 +130,6 @@ header.nav-link:focus, .nav-link:hover{
   text-align: center;
   padding: 0;
 }
-
 .disposicion__derecho{
   display: grid;
   align-items: center;
@@ -215,38 +199,3 @@ footer small{
   margin: 15px auto;
   width: 25px;
 }
-
-@media screen and (max-width:425px) {
-  .blog__terapia{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 5rem;
-    flex-wrap: wrap;
-    margin: 100px auto;
-  }
-  .funcion__descrip{
-    padding: 2rem;
-   
-  }
-  .servicios__descrip{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .testigo{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-  }
-  
-  .beneficios__descrip{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  
-  }
-}
-

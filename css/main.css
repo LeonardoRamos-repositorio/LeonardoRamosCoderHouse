@@ -1,0 +1,279 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header h1 {
+  color: white;
+  font-size: 1.5em;
+}
+
+header.container-fluid {
+  padding: 0.5rem 0.5rem;
+  background-color: #001220;
+}
+
+header.container-fluid {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1em;
+}
+
+header .nav-link {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+header.nav-link:focus, header .nav-link:hover {
+  color: aqua;
+}
+
+main .card {
+  margin-top: 40px;
+  height: 40vh;
+  background-image: url(../img/platica.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .card.btn {
+  width: 200px;
+  height: 60px;
+}
+
+main .funcion__terapia h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+main.card .servicios__negocio__izq {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main.card .servicios__negocio__izq img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.servicios__negocio__izq {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicios__negocio__izq img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.servicios__negocio {
+  display: -ms-grid;
+  display: grid;
+  padding-left: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicios__negocio img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.funcion__izq {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.funcion__cto {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.funcion__dcha {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.beneficios__negocio__izq1 {
+  padding-left: 15px;
+}
+
+.beneficios__negocio__izq2 {
+  padding-left: 15px;
+}
+
+.disposicion__izquierda {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.disposicion__centro {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.disposicion__derecho {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.servicios {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+.testimonios__izq {
+  padding-left: 15px;
+}
+
+.funcion__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+}
+
+.funcion__col img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.blog {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 1rem;
+  margin: 100px auto;
+}
+
+.blog figure {
+  width: 25%;
+}
+
+.formulario {
+  display: inline-flexbox;
+  margin: 15px 20px;
+  font-size: 2rem;
+}
+
+.leyenda {
+  font-size: 1.4rem;
+}
+
+.leyenda p {
+  font-size: 1.4rem;
+}
+
+footer small {
+  font-size: 1.5rem;
+}
+
+.redes img {
+  margin: 15px auto;
+  width: 25px;
+}
+/*# sourceMappingURL=main.css.map */
