@@ -1,0 +1,50 @@
+.funcion__izq{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+.funcion__cto{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+.funcion__dcha{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.funcion__col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+  
+@mixin imagen__redonda ($width,$height){
+    height: $height;
+    width: $width;
+    
+}
+  
+.funcion__col img {
+    @include imagen__redonda(150px,150px )
+}
+
+.funcion__col img{
+    border-radius: 75px;
+}
+
+@each $evaluacion in seguimiento, compania, cohete  {
+    .imgevaluacion#{evaluacion}{
+        <img class=".imgevaluacion" src="../img/evaluacion#($evaluacion).jpg" alt="">
+    }
+    
+}

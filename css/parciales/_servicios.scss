@@ -1,0 +1,39 @@
+.card__servicios{
+    justify-content:space-between;
+  }
+
+.servicios__negocio__izq{
+    display: grid;
+    justify-content: center;
+    
+}
+    
+.servicios__negocio__izq img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+  
+.servicios__negocio{
+    display: grid;
+    padding-left: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios__negocio img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size:cover;
+    background-position-x:center ;
+    background-position-y:center ;
+    align-items: center;
+}
+
+.servicios{
+ 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}

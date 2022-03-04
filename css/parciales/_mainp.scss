@@ -1,0 +1,34 @@
+main.card{
+    margin-top: 40px;
+    height: 40vh;
+    background-image: url(../img/platica.jpg) ;
+    background-size:cover;
+    background-position-x:center ;
+    background-position-y:center ;
+    align-items: center;
+    
+    &.btn{
+      
+      width: 200px;
+      height: 60px;
+    }
+    & .funcion__terapia h2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    
+    .servicios__negocio__izq{
+      display: grid;
+      
+      justify-content: center;
+      
+    }
+      
+    & .servicios__negocio__izq img{
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+    }
+  }

@@ -1,0 +1,22 @@
+.disposicion__izquierda{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.disposicion__centro{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+.disposicion__derecho{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 0;
+}

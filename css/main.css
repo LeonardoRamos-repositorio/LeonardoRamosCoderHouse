@@ -65,7 +65,7 @@ main .funcion__terapia h2 {
   margin-top: 30px;
 }
 
-main.card .servicios__negocio__izq {
+main .card .servicios__negocio__izq {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -73,7 +73,7 @@ main.card .servicios__negocio__izq {
           justify-content: center;
 }
 
-main.card .servicios__negocio__izq img {
+main .card .servicios__negocio__izq img {
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -276,4 +276,3 @@ footer small {
   margin: 15px auto;
   width: 25px;
 }
-/*# sourceMappingURL=main.css.map */
