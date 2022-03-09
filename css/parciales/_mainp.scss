@@ -1,4 +1,4 @@
-main.card{
+main .card{
     margin-top: 40px;
     height: 40vh;
     background-image: url(../img/platica.jpg) ;
@@ -7,17 +7,18 @@ main.card{
     background-position-y:center ;
     align-items: center;
     
-    &.btn{
+    & .btn{
       
       width: 200px;
       height: 60px;
     }
-    & .funcion__terapia h2{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 30px;
+
+    .btn-primary{
+      color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
     }
+    
     
     .servicios__negocio__izq{
       display: grid;

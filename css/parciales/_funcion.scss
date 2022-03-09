@@ -1,7 +1,14 @@
+.funcion__terapia h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .funcion__izq{
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -9,14 +16,14 @@
 .funcion__cto{
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
   
 .funcion__dcha{
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
@@ -42,9 +49,9 @@
     border-radius: 75px;
 }
 
-@each $evaluacion in seguimiento, compania, cohete  {
-    .imgevaluacion#{evaluacion}{
-        <img class=".imgevaluacion" src="../img/evaluacion#($evaluacion).jpg" alt="">
-    }
+// @each $evaluacion in seguimiento, compania, cohete  {
+//     .imgevaluacion#(evaluacion){
+//         <img class=".imgevaluacion" src="../img/evaluacion#($evaluacion).jpg" alt="">
+//     }
     
-}
+// }
