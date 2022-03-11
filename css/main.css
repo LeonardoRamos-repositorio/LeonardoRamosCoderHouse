@@ -1,3 +1,17 @@
+html {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.row {
+  margin: 0;
+}
+
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,7 +50,7 @@ header.nav-link:focus, header .nav-link:hover {
 }
 
 main .card {
-  margin-top: 40px;
+  margin-top: 30px;
   height: 40vh;
   background-image: url(../img/platica.jpg);
   background-size: cover;
@@ -76,11 +90,6 @@ main .card .servicios__negocio__izq img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-.btn-primary {
-  color: #000;
-  background-color: #0dcaf0;
-  border-color: #0dcaf0;
 }
 
 .servicios__negocio__izq {
@@ -204,6 +213,17 @@ main .card .servicios__negocio__izq img {
   border-radius: 75px;
 }
 
+.beneficios__negocio {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .disposicion__izquierda {
   display: -ms-grid;
   display: grid;
@@ -264,19 +284,6 @@ main .card .servicios__negocio__izq img {
 
 .blog figure {
   width: 25%;
-}
-
-html {
-  padding-left: 15px;
-}
-
-.row {
-  margin: 0;
-}
-
-.row > * {
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .formulario {
