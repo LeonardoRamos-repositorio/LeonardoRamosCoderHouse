@@ -1,29 +1,34 @@
+.funcion__terapia{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .funcion__terapia h2{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .funcion__izq{
     display: grid;
-    align-items: center;
-    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
     margin-bottom: 10px;
-    text-align: center;
+    
 }
   
 .funcion__cto{
     display: grid;
-    align-items: center;
-    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
     margin-bottom: 10px;
 }
   
 .funcion__dcha{
     display: grid;
-    align-items: center;
-    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
     margin-bottom: 10px;
 }
 
