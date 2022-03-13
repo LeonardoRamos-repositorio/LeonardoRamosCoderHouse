@@ -1,16 +1,22 @@
 main .card{
-    margin-top: 30px;
-    height: 40vh;
-    background-image: url(../img/platica.jpg) ;
-    background-size:cover;
-    background-position-x:center ;
-    background-position-y:center ;
-    align-items: center;
-    
+  margin: 3em 0em;
+  height: 60vh;
+  color: white;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ), url(../img/platica.jpg) ;
+  background-size:cover;
+  background-position-x:center ;
+  background-position-y:center ;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0em;  
     & .btn{
       
-      width: 200px;
-      height: 60px;
+      width: 8em;
+      height: 4em;
     }
 
     .btn-primary{
@@ -18,7 +24,23 @@ main .card{
     background-color: #0dcaf0;
     border-color: #0dcaf0;
     }
-    
+
+    .btn-info{
+      color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    }
+    .btn-primary:hover{
+      color: #000;
+    background-color: #6fbac7;
+    border-color: #6fbac7;
+    }
+
+    .btn-info:hover{
+      color: #000;
+    background-color: #6fbac7;
+    border-color: #6fbac7;
+    }
     
     .servicios__negocio__izq{
       display: grid;

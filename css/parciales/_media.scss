@@ -1,0 +1,39 @@
+@media screen and (max-width:768px){
+    .nav-ul{
+        display: none;
+        font-size: 0.8em;
+        // flex-direction: column;
+    }
+
+    .nav-ul.show{
+        display: flex;
+    }
+    
+    .hamburgesa{
+       display:flex;
+      
+    }
+
+    .hamburgesa:focus{
+        outline: none;
+    }
+
+    .container-fluid {
+        font-size: 0.7em;
+    }
+    .card__final{
+        display: none;
+    }
+    .beneficios__negocio{
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    
+    }
+    .servicios__negocio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    }
+}

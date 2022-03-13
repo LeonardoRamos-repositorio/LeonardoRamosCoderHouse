@@ -7,7 +7,10 @@ header{
   }
   
   &.container-fluid{
-    padding: 0.5rem 0.5rem;
+    // position: fixed;
+    // width: 100%;
+    // z-index: 9999;
+    padding: 0px 0.5rem;
     background-color: #001220;
   }
 
@@ -17,12 +20,12 @@ header{
             align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+            justify-content:space-between;
     font-size: 1em;
   }
   
 & .nav-link {
-    color: white;
+   color: white;
     text-decoration: none;
     -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -32,4 +35,19 @@ header{
     color: #31d2f2;
   }
 
+&.nav{
+  flex-wrap: wrap;
+}   
+  }
+.hamburgesa{
+    background-color: transparent;
+    border:0;
+    color:#ffff;
+    cursor: pointer;
+    display: none;
+    font-size: 1.5em;
+  }
+
+.hamburgesa:focus{
+  outline: none;
 }

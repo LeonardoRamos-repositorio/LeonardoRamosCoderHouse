@@ -2,20 +2,16 @@
     justify-content:space-between;
   }
 
-.servicios__negocio__izq{
-    display: grid;
-    justify-content: center;
-    
-}
-    
-.servicios__negocio__izq img{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-}
-  
+.servicios__descrip{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    align-items: center;
+}    
 .servicios__negocio{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     padding-left: 15px;
     align-items: center;
     justify-content: center;
