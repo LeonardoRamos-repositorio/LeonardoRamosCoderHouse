@@ -153,6 +153,18 @@ main .card .servicios__negocio__izq img {
   border-radius: 100%;
 }
 
+.btn-primary {
+  color: #000;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: #6fbac7;
+  border-color: #6fbac7;
+}
+
 .card__servicios {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -359,18 +371,16 @@ main .card .servicios__negocio__izq img {
   width: 25%;
 }
 
-.formulario {
-  display: inline-flexbox;
-  margin: 15px 20px;
-  font-size: 2rem;
-}
-
 .leyenda {
   font-size: 1.4rem;
 }
 
 .leyenda p {
   font-size: 1.4rem;
+}
+
+.bloque {
+  margin: 0px;
 }
 
 footer small {
